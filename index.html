@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up form by colorlib</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .input {
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .container {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
+            background-color: #ffffff;
+            width: 65%;
+            height: 475px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        body {
+            background-color: #f8f8f8;
+        }
+
+        .reg-form {
+            display: inline-block;
+            margin: 6% 12%;
+        }
+
+        .user {
+            border: none;
+            font-size: 13px;
+            outline: none;
+        }
+
+        form {
+
+            line-height: 3;
+        }
+
+        img.pic {
+            width: 26%;
+        }
+
+        h1.head {
+            font-size: 45px;
+            margin-bottom: 7%;
+        }
+
+        img.pic {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+
+        .banner {
+            display: inline-block;
+        }
+
+        a.links {
+            color: black;
+        }
+
+        a.link {
+            color: black;
+            font-size: 18px;
+            padding: 0% 20%;
+        }
+
+        button.btn {
+            background-color: #5596d3;
+            border: none;
+            margin: 8% 0%;
+            padding: 5% 15%;
+            border-radius: 8px;
+            color: white;
+        }
+
+        button.btn:hover {
+            cursor: pointer;
+            background-color: #144c80;
+        }
+
+        .fa-solid,
+        .fas {
+            font-size: 13px;
+            padding: 0% 3%;
+        }
+
+        a.log {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="reg-form">
+            <h1 class="head">sign up</h1>
+            <form action="">
+                <div class="input">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="user" type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+
+                <div class="input">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input class="user" type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="user" type="password" id="Password" name="password" placeholder="password" required>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-lock" style="color: rgba(12, 1, 1, 0.404);"></i>
+                    <input class="user" type="password" id="Passwords" name="password"
+                        placeholder="Repeat your password" required>
+                </div>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    <label for="agree">I agree all statements in <a class="links" href="#"> Terms of
+                            services</a></label>
+                </div>
+                <div class="button">
+                    <button class="btn" type="Register"> <a class="log" href="login.html">Register</a></button>
+                </div>
+            </form>
+        </div>
+        <div class="banner">
+            <img class="pic" src="signup-image.jpg" alt="">
+            <p> <a class="link" href="#">i am already member</a></p>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .input {
+            border: none;
+            outline: none;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .container {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 4px;
+            background-color: #ffffff;
+            width: 65%;
+            height: 475px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        body {
+            background-color: #f8f8f8;
+        }
+
+        .login-form {
+            display: inline-block;
+            margin: 6% 12%;
+        }
+
+        .user {
+            border: none;
+            font-size: 13px;
+            outline: none;
+        }
+
+        form {
+
+            line-height: 4;
+        }
+
+
+        h1.head {
+            font-size: 40px;
+            margin-bottom: 7%;
+        }
+
+        img.pic {
+            width: 100%;
+            margin-bottom: 2%;
+        }
+
+        .banner {
+            display: inline-block;
+        }
+
+        a.links {
+            color: black;
+        }
+
+        a.link {
+            color: black;
+            font-size: 18px;
+            padding: 0% 20%;
+        }
+
+        button.btn {
+            background-color: #5596d3;
+            border: none;
+            margin: 8% 0%;
+            padding: 7% 15%;
+            border-radius: 8px;
+            color: white;
+        }
+
+        button.btn:hover {
+            cursor: pointer;
+            background-color: #144c80;
+        }
+
+        .fa-solid,
+        .fas {
+            font-size: 13px;
+            /* padding: 0% 3%; */
+        }
+
+        .input-icon {
+            font-size: 22px;
+        }
+
+        p.new {
+            display: inline;
+            font-size: 15px;
+            padding: 0% 5%;
+        }
+
+        a.log {
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="login-form">
+            <img src="signin-image (1).jpg" alt="" class="">
+            <p><a class="link" href=""> Create an account</a></p>
+        </div>
+
+        <div class="banner">
+            <h1 class="head ">Sign up</h1>
+            <form action="">
+                <div class="input">
+                    <i class="fa-solid fa-user"></i>
+                    <input class="user" type="text" id="name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="input">
+                    <i class="fa-solid fa-lock"></i>
+                    <input class="user" type="password" id="Password" name="password" placeholder="password" required>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="remember" id=""> Remember me
+                </div>
+                <div class="button">
+                    <button class="btn" type="Log in"> <a class="log" href="index.html">Log in</a></button>
+                </div>
+
+                <div class="input-icon">
+                    <p class="new">or login with</p><i class="fa-brands fa-square-facebook" style="color: #102d6b;"></i>
+                    <i class="fa-brands fa-square-twitter" style="color: #4778e0;"></i>
+                    <i class="fa-brands fa-google" style="color: #ec0404;"></i>
+
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
